@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.preke {
+    background-color: rgb(248, 227, 201);
+    border: 2px solid rgb(245, 216, 181);
+    padding: 0 20px 20px 20px;
+    float: left;
+    margin: 10px 15px 0 0;
+    width: 20%;
+}
+img {
+    width: 80px;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+}
+.tekstas {
+    float: left;
+    width: 150px;
+    margin-top: 0;
+}
+.clear {
+    clear: both;
+}
+a {
+    float: right;
+    text-decoration: none;
+    color: brown;
+}
+i {
+    font-size: 14px;
+    margin-left: 3px;
+}

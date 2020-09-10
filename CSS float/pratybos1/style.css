@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.square {
+    width:24.26%;
+    height: 15px;
+    background-color: rgb(24, 186, 207);
+    display: inline-block;
+
+}
+.viduryje {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(197, 242, 248);
+}
+.kvadratai{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    text-align-last: justify;
+}
+.bold {
+    font-weight: bold;
+}
+.small {
+    font-size: small;
+}
+.footer {
+    float: left;
+    width: 50%;
+    
+}
+p {
+    display: inline-block;
+}
