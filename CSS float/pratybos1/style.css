@@ -3,24 +3,23 @@ body {
     padding: 0;
 }
 .square {
-    width:24.26%;
-    height: 15px;
+    width:24.77%;
     background-color: rgb(24, 186, 207);
+    height: 15px;
     display: inline-block;
-
+    text-align-last: justify;
+}
+.kvadratai {
+    position: absolute;
+    width: 100%;
 }
 .viduryje {
     display: flex;
     height: 50px;
-    align-items: center;
-    justify-content: center;
     background-color: rgb(197, 242, 248);
 }
-.kvadratai{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    text-align-last: justify;
+.mygt {
+    margin: auto;
 }
 .bold {
     font-weight: bold;
