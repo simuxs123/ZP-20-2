@@ -1,0 +1,61 @@
+.tarpai {
+    margin: 0 10px 10px 0;
+    padding: 10px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+}
+.header {
+    background-color: green;
+    height: auto;
+    width: 100%;
+}
+.navAds {
+    width: 20%;
+}
+.nav {
+    background-color: red;
+    height: 110px;
+}
+.ads {
+    background-color: blueviolet;
+    height: 110px;
+}
+.articleFooter {
+    width: 80%;
+}
+.article {
+    background-color: blue;
+    height: 170px;
+}
+.footer {
+    background-color: aqua;
+    height: 50px;
+}
+@media (max-width: 991.98px) { 
+    .tarpai {
+        margin: 0 8px 8px 0;
+        padding: 7px;
+    }
+    #container {
+        
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px){
+    .tarpai {
+        margin: 0 3px 3px 0;
+        padding: 5px;
+    }
+    #container {
+        
+        width: 85%;
+        margin: 0 auto;
+    }
+}
