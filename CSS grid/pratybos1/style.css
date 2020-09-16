@@ -1,0 +1,61 @@
+#container {
+   display: grid;
+   width: 600px;
+   margin: 0 auto;
+   min-height: 630px;
+   grid-template-areas: 
+   "header header header header header header"
+   "hero hero mainCont mainCont mainCont mainCont"
+   "hero hero mainCont mainCont mainCont mainCont"
+   "hero hero mainCont mainCont mainCont mainCont"
+   "sidebar sidebar mainCont mainCont mainCont mainCont"
+   "sidebar sidebar mainCont mainCont mainCont mainCont"
+   "sidebar sidebar extraCont extraCont extraCont extraCont"
+   "sidebar sidebar extraCont extraCont extraCont extraCont"
+   "image image image image post post"
+   "image image image image post post"
+   "footer footer footer footer footer footer";
+   grid-gap: 10px;
+}
+.content {
+    text-align: left;
+    font-size: 0.7em;
+}
+.gridBoxes {
+   text-align: center;
+   color: white;
+   padding: 10px;
+   font-size: 1.5em;
+}
+.header {
+    grid-area: header;
+    background-color: aqua;
+}
+.hero {
+    grid-area: hero;
+    background-color: lightgrey;
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: green;
+}
+.mainCont {
+    grid-area: mainCont;
+    background-color: orange;
+}
+.extraCont {
+    grid-area: extraCont;
+    background-color: darkgrey;
+}
+.image {
+    grid-area: image;
+    background-color: rgb(7, 151, 67);
+}
+.post {
+    grid-area: post;
+    background-color: pink;
+}
+.footer {
+    grid-area: footer;
+    background-color: orangered;
+}
