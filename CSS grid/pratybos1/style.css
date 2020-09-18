@@ -1,6 +1,6 @@
 #container {
    display: grid;
-   width: 600px;
+   width: 480px;
    margin: 0 auto;
    min-height: 630px;
    grid-template-areas: 
