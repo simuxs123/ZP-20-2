@@ -129,13 +129,15 @@ opacity: 0.5;
 		 height: 400px;
 	 }
 	.name {
-		font-size: 1.45em;
+		/* font-size: 1.45em; */
+		font-size: 5.2vw;
 		letter-spacing: 2.8px;
 		text-align: center;
 	}
 	.hashtag {
 		width: 97%;
-		font-size: 0.57em;
+		/* font-size: 0.57em; */
+		font-size: 2vw;
 		line-height: 30px;
 		letter-spacing: 0;
 		text-align: center;
@@ -165,16 +167,14 @@ opacity: 0.5;
 		height: 350px;
 	}
    .name {
-	   font-size: 1.2em;
+	   font-size: 5.3vw;
 	   letter-spacing: 2px;
-	   text-align: center;
    }
    .hashtag {
 	   width: 97%;
-	   font-size: 0.7em;
+	   font-size: 3vw;
 	   line-height: 30px;
 	   letter-spacing: 0;
-	   text-align: center;
    }
    .bottonMove {
 	   margin-left: 10px;
