@@ -1,6 +1,6 @@
 
 .container-fluid {
-	height: 4110px;
+	height: 4140px;
 	
 }
 .container {
@@ -73,10 +73,101 @@ opacity: 0.5;
 	height: 530px;
 	background-color: #ffffff;
 }
-.workingProcess {
+.descriptionLogo {
+	height: auto;
+	width: 350px;
+}
+.descriptionText {
 	width: 100%;
-	height: 470px;
-	background-color: #f6f6f6;
+}
+.descriptionText > h1 {
+	/* Style for "Hi, i’m Pa" */
+width: 100%;
+opacity: 0.7;
+color: #000000;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 40px;
+/* Text style for "Hi, i’m Pa" */
+letter-spacing: 0.18px;
+}
+.descriptionText > p {
+	/* Style for "Lorem ipsu" */
+width: 100%;
+height: auto;
+opacity: 0.7;
+color: #000000;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 28.01px;
+/* Text style for "Lorem ipsu" */
+letter-spacing: 0.16px;
+}
+.descriptionText > button {
+	/* Style for "Rectangle" */
+width: 202px;
+height: 46px;
+background-color: #ff2b4a;
+border: none;
+}
+.workingProcess {
+width: 100%;
+height: 510px;
+background-color: #f6f6f6;
+}
+
+.workingProcesTitle > h1 {
+width: 389px;
+height: 40px;
+color: #000000;
+font-family: Raleway;
+font-size: 40px;
+font-weight: 700;
+line-height: 20.01px;
+width: 100%;
+letter-spacing: 0.4px;
+}
+.workingProcesTitle > p{
+	/* Style for "Hi, i’m Pa" */
+	width: 380px;
+	opacity: 0.7;
+	height: 40px;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20.01px;
+	width: 100%;
+}
+.p-title > p {
+	/* Style for "Developmen" */
+	height: 12px;
+	color: #ffffff;
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 40.01px;
+	text-transform: uppercase;
+	/* Text style for "Developmen" */
+	letter-spacing: 0.48px;
+}
+.box-size {
+	width: 233px;
+	height: 220px;
+}
+.box-1 {
+	background-color: #10c6fc;	
+}
+.box-2 {
+	background-color: #835aeb;
+}
+.box-3 {
+	background-color: #002453;
+}
+.box-4 {
+	background-color: #ff2b4a;
 }
 .workExperience {
 	width: 100%;
@@ -108,8 +199,35 @@ opacity: 0.5;
 	width: 100%;
 	background-color: #222222;
 }
-
-
+@media (max-width: 991.98px) { 
+	.descriptionText > h1 {
+		font-size: 16px;
+	}
+	.descriptionText > p {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	.descriptionText > button {
+		width: 140px;
+		height: 35px;
+	}
+	.description {
+		height: 450px;
+	}
+	.descriptionLogo {
+		width: 290px;
+	}
+	.header {
+		height: 600px;
+	}
+	.workingProcess {
+		height: 450px;
+	}
+	.box-size {
+		width: 163px;
+		height: 160px;
+	}
+}
 @media  (max-width: 767.98px) { 
 	.header {
 		height: 500px;
@@ -123,10 +241,26 @@ opacity: 0.5;
 		line-height: 40px;
 		letter-spacing: 0.49px;
 	}
+	.col-12.pozicija {
+		position: absolute;
+	}
+	.descriptionLogo {
+		opacity: 0.3;
+	}
+	.workingProcess {
+		height: 350px;
+	}
+	.box-size {
+		width: 123px;
+		height: 110px;
+	}
+	.p-title > p {
+		font-size: 14px;
+	}
  }
  @media (max-width: 575.98px) { 
-	 .header {
-		 height: 400px;
+	.header {
+		 height: 300px;
 	 }
 	.name {
 		/* font-size: 1.45em; */
@@ -161,11 +295,42 @@ opacity: 0.5;
 		width:28px;
 		width: 25px;
 	}
-  }
-  @media (max-width: 420px) { 
-	.header {
-		height: 350px;
+	.description {
+		height: 280px;
 	}
+	.descriptionLogo {
+		width: 200px;
+	}
+	.descriptionText > h1 {
+		font-size: 15px;
+	}
+	.descriptionText > p {
+	   font-size: 12px;
+	   line-height: 20px;
+   }
+   .descriptionText > button {
+	   width: 100px;
+	   height: 25px;
+   }
+   .workingProcesTitle > h1 {
+	   font-size: 34px;
+   }
+   .workingProcess {
+	   height: 300px;
+   }
+   .box-size {
+	width: 90px;
+	height: 87px;
+	}
+	.p-title > p {
+		font-size: 11px;
+		letter-spacing: 0;
+	}
+	.box-4 .p-title > img {
+		height: 36px;
+	}
+  }
+  @media (max-width: 425px) { 
    .name {
 	   font-size: 5.3vw;
 	   letter-spacing: 2px;
@@ -182,6 +347,32 @@ opacity: 0.5;
    .buttonInside {
 	   left: 38px;
    }
+   .descriptionText > p {
+    font-size: 12px;
+    line-height: 18px;
+	}
+   .descriptionText > h1 {
+		font-size: 3.7vw;
+		line-height: 24px;
+	}
+	.workingProcesTitle > h1 {
+		font-size: 30px;
+	}
+	.workingProcesTitle > p {
+		font-size: 3.9vw;
+	}
+	.box-size {
+	 width: 18vw;
+	 height: 18vw;
+	 }
+	 .p-title > p {
+		 font-size: 2.35vw;
+		 letter-spacing: 0;
+		 line-height: 30px;
+	 }
+	 .workingProcess {
+		 height: 250px;
+	 }
  }
 
 		
