@@ -10,6 +10,7 @@
 .row {
 	height: 100%;
 }
+
 .header {
 	width: 100%;
 	height: 650px;
@@ -105,10 +106,10 @@ line-height: 28.01px;
 /* Text style for "Lorem ipsu" */
 letter-spacing: 0.16px;
 }
-.descriptionText > button {
+.buttonRed {
 	/* Style for "Rectangle" */
-width: 202px;
-height: 46px;
+width: 180px;
+height: 40px;
 background-color: #ff2b4a;
 border: none;
 }
@@ -118,8 +119,7 @@ height: 510px;
 background-color: #f6f6f6;
 }
 
-.workingProcesTitle > h1 {
-width: 389px;
+.h1-style {
 height: 40px;
 color: #000000;
 font-family: Raleway;
@@ -129,9 +129,7 @@ line-height: 20.01px;
 width: 100%;
 letter-spacing: 0.4px;
 }
-.workingProcesTitle > p{
-	/* Style for "Hi, i’m Pa" */
-	width: 380px;
+.p-style{
 	opacity: 0.7;
 	height: 40px;
 	color: #000000;
@@ -178,11 +176,7 @@ letter-spacing: 0.4px;
 	opacity: 0.9;
 }
 .workExpBox {
-	width: 100%;
 	height: 37vw;
-	background-color: #ffffff;
-	background-image: linear-gradient(45deg, rgba(93, 35, 96, 0.79) 0%, rgba(158, 53, 105, 0.79) 50%, rgba(93, 35, 96, 0.79) 100%);
-	opacity: 0.3;
 }
 .boxText > h1 {
 	color: #ffffff;
@@ -239,20 +233,145 @@ letter-spacing: 0.4px;
 }
 .latestWork {
 	width: 100%;
-	height: 620px;
+	height: 750px;
+}
+.boxSize {
+	width: 100%;
+	height: 18vw;
+} 
+
+.box-aqua {
+	background-color: #10c6fc;
+	}
+.box-purple {
+	background-color: #835aeb;
+}
+.box-blue {
+	background-color: #002453;
+}
+.box-red {
+	background-color: #ff2b4a;
 }
 .citation {
 	width: 100%;
 	height: 530px;
 	background-color: #64cbc0;
 }
+.quotes {
+	opacity: 0.51;
+}
+.citationText {
+	opacity: 0.8;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28.01px;
+	/* Text style for "Lorem ipsu" */
+	letter-spacing: 0.16px;
+}
+.citationAuth {
+	opacity: 0.7;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28.01px;
+	/* Text style for "Deniel Cro" */
+	letter-spacing: 0.18px;
+}
+.citationDesigner {
+	opacity: 0.7;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28.01px;
+	/* Text style for "Creative D" */
+	letter-spacing: 0.14px;
+}
 .form {
 	width: 100%;
-	height: 630px;
+	height: 680px;
 	background-image: url("img/2Q==_copy_2.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.9;
+}
+.formWorkExpieBox {
+	background-image: linear-gradient(45deg, rgba(93, 35, 96, 0.79) 0%, rgba(158, 53, 105, 0.79) 50%, rgba(93, 35, 96, 0.79) 100%);
+	opacity: 0.3;
+	width:100%;
+}
+.formBox {
+	width: 90%;
+
+}
+.form-group .form-control::placeholder {
+opacity: 0.6 ;
+color:#ffffff;
+font-family: Roboto ;
+font-size: 12px ;
+font-weight: 400;
+/* Text style for "Subject*" */
+letter-spacing: 0.12px;
+}
+.form-group textarea {
+	resize: none;
+	background: transparent;
+	color:#ffffff;
+  }
+  .form-group textarea:focus {
+	  color:#ffffff;
+	  background: transparent;
+  }
+  .form-group input:focus {
+	  color:#ffffff;
+	  background: transparent;
+  }
+  .form-group input:required {
+	box-shadow:none;
+  }
+  .form-group .form-control:focus {
+	border-color:  rgba(255, 255, 255, 0.6) ;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 255, 255, 0.6);
+}
+.form-group input {	
+	height: 40px;
+	border: 1px solid rgba(255, 255, 255, 0.6);
+	background: transparent;
+	color:#ffffff;
+}
+.formTitles {
+color: #ffffff;
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 28.01px;
+text-transform: uppercase;
+/* Text style for "Leave a me" */
+letter-spacing: 0.78px;
+}
+.formLeft {	
+	height: 586px;	
+}
+.formRigth{
+	height: 190px;
+}
+.a-styling {
+	text-decoration: none;
+	opacity: 0.7;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 23.01px;
+	/* Text style for "Gulshan Sa" */
+	letter-spacing: 0.16px;
+}
+.a-styling:hover {
+	text-decoration: none;
+	color: #ffffff;;
 }
 .footer {
 	height: 100px;
@@ -267,7 +386,7 @@ letter-spacing: 0.4px;
 		font-size: 14px;
 		line-height: 23px;
 	}
-	.descriptionText > button {
+	.buttonRed {
 		width: 140px;
 		height: 35px;
 	}
@@ -305,6 +424,12 @@ letter-spacing: 0.4px;
 	}
 	.workExperience {
 		height: 500px;
+	}
+	.latestWork {
+		height: 600px;
+	}
+	.boxSize {
+		height: 15vw;
 	}
 }
 @media  (max-width: 767.98px) { 
@@ -349,10 +474,19 @@ letter-spacing: 0.4px;
 		font-size: 13px;
 		line-height: 21.01px;
 	}
+	.latestWork {
+		height: 450px;
+	}
+	.formLeft {	
+		height: 496px;	
+	}
+	.formRigth{
+		height: 160px;
+	}
  }
  @media (max-width: 575.98px) { 
 	.header {
-		 height: 300px;
+		 height: 250px;
 	 }
 	.name {
 		/* font-size: 1.45em; */
@@ -368,24 +502,24 @@ letter-spacing: 0.4px;
 		letter-spacing: 0;
 		text-align: center;
 	}
-	.bottonMove {
-		margin-left: 23px;
-	}
+	
 	.logo {	
-		top: 35px;
-		width:30px;
-		height: 40px;
+		top: 20px;
+		width:25px;
+		height: 35px;
 	}
 	.button {
-		width: 50px;
+		width: 40px;
 		height: auto;
-		top: 29px;
+		top: 16px;
 	}
 	.buttonInside {
-		top: 43px;
-		left: 51px;
-		width:28px;
-		width: 25px;
+		top: 27px;
+		left: 62px;
+		width: 20px;
+	}
+	.bottonMove {
+		margin-left: 37px;
 	}
 	.description {
 		height: 280px;
@@ -400,11 +534,11 @@ letter-spacing: 0.4px;
 	   font-size: 12px;
 	   line-height: 20px;
    }
-   .descriptionText > button {
+   .buttonRed {
 	   width: 100px;
 	   height: 25px;
    }
-   .workingProcesTitle > h1 {
+   .h1-style {
 	   font-size: 34px;
    }
    .workingProcess {
@@ -439,6 +573,50 @@ letter-spacing: 0.4px;
 		font-size: 2.4vw;
 		line-height: 14.01px;
 	}
+	.latestWork {
+		height: 370px;
+	}
+	.boxSize {
+		height: 18vw;
+	}
+	.citation {
+		height: 420px;
+	}
+	.citationText {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.quotes {
+		width: 50px;
+		height: 39px;
+	}
+	.sign {
+		width: 150px;
+		height:auto ;
+	}
+	.citationAuth {
+		font-size: 16px;
+	}
+	.citationDesigner {
+		font-size: 13px;
+	}
+	.formLeft {	
+		height: 400px;	
+	}
+	.form {
+		height: 700px;
+	}
+	.formRigth{
+		height: 85px;
+	}
+	.formTitles {
+		font-size: 18px;		
+		line-height: 28.01px;
+		}
+	.a-styling {		
+		font-size: 13px;
+		line-height: 17px;
+	}
   }
   @media (max-width: 425px) { 
    .name {
@@ -452,10 +630,10 @@ letter-spacing: 0.4px;
 	   letter-spacing: 0;
    }
    .bottonMove {
-	   margin-left: 10px;
+	   margin-left: 15px;
    }
    .buttonInside {
-	   left: 38px;
+	   left: 40px;
    }
    .descriptionText > p {
     font-size: 12px;
@@ -465,15 +643,15 @@ letter-spacing: 0.4px;
 		font-size: 3.7vw;
 		line-height: 24px;
 	}
-	.workingProcesTitle > h1 {
+	.h1-style {
 		font-size: 30px;
 	}
-	.workingProcesTitle > p {
-		font-size: 3.9vw;
+	.p-style {
+		font-size: 3.6vw;
 	}
 	.box-size {
-	 width: 18vw;
-	 height: 18vw;
+	 	width: 18vw;
+	 	height: 18vw;
 	 }
 	 .p-title > p {
 		 font-size: 2.35vw;
@@ -486,8 +664,12 @@ letter-spacing: 0.4px;
 	 .workingProcess {
 		 height: 250px;
 	 }
+	 .latestWork {
+		height: 330px;
+	 }
+	 
  }
-
+ 
 		
 
 		
