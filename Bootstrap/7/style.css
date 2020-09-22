@@ -378,6 +378,24 @@ letter-spacing: 0.78px;
 	width: 100%;
 	background-color: #222222;
 }
+.copyRigth {
+	opacity: 0.5;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 30.01px;
+	letter-spacing: 0.48px;
+}
+.verticalLine {
+	width: 1px;
+	height: 14px;
+	background-color: #888888;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+
 @media (max-width: 991.98px) { 
 	.descriptionText > h1 {
 		font-size: 16px;
@@ -483,6 +501,10 @@ letter-spacing: 0.78px;
 	.formRigth{
 		height: 160px;
 	}
+	.formTitles {
+		font-size: 20px;		
+
+		}
  }
  @media (max-width: 575.98px) { 
 	.header {
